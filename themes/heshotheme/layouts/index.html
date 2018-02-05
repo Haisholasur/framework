@@ -10,72 +10,75 @@
     <link rel="stylesheet" href="http://systematik.stefangrage.com/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Lora|Open+Sans" rel="stylesheet">
 </head>
+
 <body>
 
-<div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  
-  
-  <a class="" href="/" title="home section">Home</a>
-  
-  <a class="" href="/dokumentation/" title="dokumenation section">Dokumentation</a>
-  
-  <a class=" active" href="/om/" title="om section">Om</a>
-  
-</div>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
-<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
 
-<div class="container">
-  <div class="row">
-      <div class="col-xs-12">
-          <h1>Om</h1>
-      </div>
-  </div>
+        <a class="" href="/" title="home section">Home</a>
 
-  <section class="row"><p>Kontakt mig for at høre mere om design systemet.</p>
-</section>
+        <a class="" href="/dokumentation/" title="dokumenation section">Dokumentation</a>
 
-  <section class="row">
+        <a class=" active" href="/om/" title="om section">Om</a>
+
+    </div>
+
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
 
     <div class="container">
-        <div id="formfeedback" class="hidden">Vi vender tilbage snarest!</div>
-          <form action="" method="post" id="kontaktmig">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1>Om</h1>
+            </div>
+        </div>
 
-              <label for="Navn">Navn</label>
-              <input type="text" id="navn" name="navn" placeholder="Dit navn">
+        <section class="row">
+            <p>Kontakt mig for at høre mere om design systemet.</p>
+        </section>
 
-              <label for="email">E-mail</label>
-              <input type="email" id="email" name="email" placeholder="Din e-mail">
+        <section class="row">
 
-              <label for="henvendelse">Jeg henvender mig vedr.:</label>
-              <select id="henvendelse" name="henvendelse">
-                <option value="support">Support</option>
-                <option value="tilbud">Tilbud</option>
-                <option value="prepurchase">Spørgsmål før køb</option>
-              </select>
+            <div class="container">
+                <div id="formfeedback" class="hidden">Vi vender tilbage snarest!</div>
+                <form action="" method="post" id="kontaktmig">
 
-              <label for="besked">Besked</label>
-              <textarea id="besked" name="besked" placeholder="Din besked.."></textarea>
+                    <label for="Navn">Navn</label>
+                    <input type="text" id="navn" name="navn" placeholder="Dit navn">
 
-              <input type="submit" name="submit" value="Submit">
-              
-              <div id="formfailure" class="hidden"></div>
-          </form>
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="Din e-mail">
 
-      </div>
+                    <label for="henvendelse">Jeg henvender mig vedr.:</label>
+                    <select id="henvendelse" name="henvendelse">
+                        <option value="support">Support</option>
+                        <option value="tilbud">Tilbud</option>
+                        <option value="prepurchase">Spørgsmål før køb</option>
+                    </select>
 
-	</div>
+                    <label for="besked">Besked</label>
+                    <textarea id="besked" name="besked" placeholder="Din besked.."></textarea>
+
+                    <input type="submit" name="submit" value="Submit">
+
+                    <div id="formfailure" class="hidden"></div>
+                </form>
+
+            </div>
+
+    </div>
 
 
 
-    
-  </section>
 
-</div>
-  <script src="http://systematik.stefangrage.com/js/jquery-2.1.0.min.js"></script>
-  <script src="http://systematik.stefangrage.com/js/app.js"></script>
-  <script src="http://systematik.stefangrage.com/js/scripts.js"></script>
+    </section>
+
+    </div>
+    <script src="http://systematik.stefangrage.com/js/jquery-2.1.0.min.js"></script>
+    <script src="http://systematik.stefangrage.com/js/app.js"></script>
+    <script src="http://systematik.stefangrage.com/js/scripts.js"></script>
+    <script src="script.js"></script>
 </body>
-</html>
 
+</html>

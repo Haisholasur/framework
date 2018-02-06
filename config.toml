@@ -8,7 +8,7 @@ theme = "heshotheme"
 name               	= "Contact"
 weight             	= -201
 identifier         	= "contact"
-url                	= "/contact/contact/"
+url                	= "/contact/"
 
 [[menu.main]]
 name               	= "Dokumentation"

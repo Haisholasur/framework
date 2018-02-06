@@ -8,17 +8,17 @@ theme = "heshotheme"
 name               	= "Farver"
 weight             	= -201
 identifier         	= "farver"
-url                	= "/farver/"
+url                	= "/dokumentation/farver/"
 
 [[menu.main]]
 name               	= "Typografi"
 weight             	= -101
 identifier         	= "typografi"
-url                	= "/typografi/"
+url                	= "/dokumentation/typografi/"
 
 
 [[menu.main]]
 name               	= "Om"
 weight             	= -101
 identifier         	= "om"
-url                	= "/om/"
+url                	= "/dokumentation/om/"

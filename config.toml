@@ -5,20 +5,20 @@ theme = "heshotheme"
 
 
 [[menu.main]]
-name               	= "Farver"
+name               	= "Contact"
 weight             	= -201
-identifier         	= "farver"
-url                	= "/dokumentation/farver/"
+identifier         	= "contact"
+url                	= "/contact/contact/"
 
 [[menu.main]]
-name               	= "Typografi"
-weight             	= -101
-identifier         	= "typografi"
-url                	= "/dokumentation/typografi/"
+name               	= "Dokumentation"
+weight             	= -201
+identifier         	= "dokumentation"
+url                	= "/dokumentation/"
 
 
 [[menu.main]]
 name               	= "Om"
 weight             	= -101
 identifier         	= "om"
-url                	= "/dokumentation/om/"
+url                	= "/om/"

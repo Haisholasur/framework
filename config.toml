@@ -5,6 +5,12 @@ theme = "heshotheme"
 
 
 [[menu.main]]
+name               	= "Home"
+weight             	= -202
+identifier         	= "home"
+url                	= "/index.html/"
+
+[[menu.main]]
 name               	= "Contact"
 weight             	= -201
 identifier         	= "contact"
@@ -17,8 +23,3 @@ identifier         	= "dokumentation"
 url                	= "/dokumentation/"
 
 
-[[menu.main]]
-name               	= "Om"
-weight             	= -101
-identifier         	= "om"
-url                	= "/om/"

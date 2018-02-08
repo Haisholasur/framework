@@ -17,9 +17,21 @@ identifier         	= "contact"
 url                	= "/contact/"
 
 [[menu.main]]
-name               	= "Dokumentation"
+name               	= "farver"
 weight             	= -201
-identifier         	= "dokumentation"
-url                	= "/dokumentation/"
+identifier         	= "farver"
+url                	= "/farver/"
+
+[[menu.main]]
+name               	= "typografi"
+weight             	= -201
+identifier         	= "typografi"
+url                	= "/typografi/"
+
+[[menu.main]]
+name               	= "grafik"
+weight             	= -201
+identifier         	= "grafik"
+url                	= "/grafik/"
 
 

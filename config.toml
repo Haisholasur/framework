@@ -17,19 +17,19 @@ identifier         	= "contact"
 url                	= "/contact/"
 
 [[menu.main]]
-name               	= "farver"
+name               	= "Farver"
 weight             	= -201
 identifier         	= "farver"
 url                	= "/farver/"
 
 [[menu.main]]
-name               	= "typografi"
+name               	= "Typografi"
 weight             	= -201
 identifier         	= "typografi"
 url                	= "/typografi/"
 
 [[menu.main]]
-name               	= "grafik"
+name               	= "Grafik"
 weight             	= -201
 identifier         	= "grafik"
 url                	= "/grafik/"

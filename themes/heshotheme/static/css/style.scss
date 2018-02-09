@@ -1,5 +1,19 @@
 /*scss fil til alt styling*/
 
+body {
+    background-color: #F4FFFF;
+    font-family: Noto Serif, serif;
+    font-weight: 40;
+    line-height: 1.45;
+    color: #333;
+}
+
+#splash img {
+    width: 100%;
+    margin-top: 50px;
+    height: 50%;
+}
+
 img {
     width: 75%;
 }
@@ -52,9 +66,9 @@ img {
 }
 
 .row div p {
-    margin: 2px;
-    background-color: yellow;
-    padding: 2px;
+    margin: 100px;
+    padding: 3px;
+    font-size: 50%;
 }
 
 
@@ -64,17 +78,6 @@ html {
     font-size: 1em;
 }
 
-body {
-    background-color: #F4FFFF;
-    font-family: Noto Serif, serif;
-    font-weight: 40;
-    line-height: 1.45;
-    color: #333;
-}
-
-p {
-    margin-bottom: 1.3em;
-}
 
 h1,
 h2,
@@ -190,11 +193,6 @@ input[type=submit]:hover {
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:700');
 $size: 150px;
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #FFD399;
-}
-
 .containe {
     display: flex;
     justify-content: center;

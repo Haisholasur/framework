@@ -7,13 +7,20 @@ body {
   line-height: 1.45;
   color: #333; }
 
-#splash img {
+.splash img {
   width: 100%;
   margin-top: 50px;
   height: 50%; }
 
+h1 {
+  border: solid #4A5252;
+  padding: 10px; }
+
 img {
   width: 75%; }
+
+.kasse {
+  border: solid #9BD8DB; }
 
 .sidenav {
   height: 100%;
@@ -161,7 +168,8 @@ input[type=submit]:hover {
 .cube * {
   position: absolute;
   width: 151px;
-  height: 151px; }
+  height: 151px;
+  margin-top: 45px; }
 
 .sides {
   animation: rotate 3s ease infinite;
@@ -313,5 +321,7 @@ input[type=submit]:hover {
   width: 100%;
   font-weight: 600;
   text-align: center; }
+
+/*animation slut*/
 
 /*# sourceMappingURL=style.css.map */

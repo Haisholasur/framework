@@ -14,7 +14,11 @@ body {
 
 h1 {
   border: solid #4A5252;
-  padding: 10px; }
+  padding: 10px;
+  font-family: noto serif; }
+
+p {
+  font-family: noto serif; }
 
 img {
   width: 75%; }
